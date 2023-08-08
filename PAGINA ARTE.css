@@ -1,0 +1,433 @@
+header{
+	
+	border-style:solid;
+	border-color: white;
+	border-radius: 40px;
+	text-align:center;
+	padding: 5px;
+	margin: 10px;
+	clear: both;
+	color: white;
+	
+}
+ul, ol {
+	list-style: none;
+}
+
+audio{
+	
+	padding-top: 20px;
+	width: 30%;
+	margin: auto;
+	display: block;
+	
+}
+
+.audio{
+	
+	padding-top: 70px;
+
+}
+
+video{
+	
+	transition: all 0.5s ease;
+	border-style:solid;
+	border-color: white;
+	
+	
+}
+
+.main video{
+	
+	width:30%;
+	float: center;
+	
+}
+
+video:hover{
+	
+	transform:scale(0.9);
+	border-radius: 40px;
+	
+}
+
+body{
+	
+	background-image:url(img/foto13.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+img{
+	
+	transition: all 0.5s ease;
+	border-style:solid;
+	border-color: white;
+	
+}
+
+.main img{
+	
+	width:49%;
+	float:left;
+	
+}
+
+img:hover{
+	
+	transform:scale(0.9);
+	border-radius: 30px;
+	
+}
+
+.separador1{
+	
+	height: 20px;
+	clear: both;
+	
+}
+
+.separador2{
+	
+	width: 2%;
+	height: 1px;
+	float: left;
+	
+}
+
+.centro{
+	
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+}
+
+.main{
+	
+	height:100px;
+	
+}
+
+#login {
+    width: 350px;
+    height: 45px;
+    background-color: #e7080800;
+    float: right;
+    color: rgb(0, 0, 0);
+}
+
+.menu a{
+	
+	background-color: georgian;
+	color: gray;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	width: 14%;
+	padding: 10px;
+	
+}
+
+.menu a:hover{
+	
+	background-color: gray;
+	color: #ffff;
+	
+}
+
+.lista{
+	
+	background-color: aqua;
+	border-style: dotted;
+	
+}
+
+article{
+	
+	background-color:coralb;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	overflow: auto;
+	
+}
+
+h1,h2,h3,h4{
+	
+	text-align:center;
+	
+}
+
+section{
+	
+	width: 50%;
+	margin: auto;
+	padding: 15px;
+	
+}
+
+.s{
+	
+	background-color:white;
+	border-style: solid;
+	width:33%;
+	float:left;
+	padding:50px;
+	height:250px;
+	overflow:auto;
+	
+}
+.def{
+	
+	background-color: blueviolet;
+	border-style: dotted;
+	text-transform: arial;
+	size: 14;
+	
+}
+
+table{
+	
+	margin-top: 50px;
+	caption-side: bottom;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	
+}
+
+th{
+	
+	background-color: crimson;
+	color: white; 
+	
+}
+
+caption{
+	
+	padding-top: 20px;
+	font-style: italic;
+}
+
+td,th{
+	
+	border: 2px solid black;
+	padding-left: 20px;
+	padding-right: 2opx;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+*{
+	
+	box-sizing: border-box;
+	margin: 0px;
+	
+}
+
+
+
+#qr{
+    width: 100px; height: 100px;
+    float: left;
+    display: flex; align-items: center;
+    text-align: center;
+    box-shadow: 10px solid #000;
+}
+
+#foot_izq{
+    width: 400px; height: 50px;
+    float: left;
+}
+
+#foot_der{
+    width: 300px; height: 100px;
+    float: right;
+    text-align: center;
+    display: flex; align-items: center;
+    font-size: 12px; box-sizing: border-box;
+}
+
+
+
+
+#redes{
+    padding: 28px;
+}
+
+#sociales{
+    width: 150px;
+	height: 150px;
+    text-align: center;
+}
+
+#sociales li{
+    display: inline;
+}
+
+ul{
+    margin: auto;
+    list-style: none;
+}
+
+
+#ubica{
+
+   margin: auto;
+   text-align: center;
+}
+
+
+footer
+{
+	
+	border-style:solid;
+	border-color: black;
+	border-radius: 20px;
+	text-align:center;
+	padding:15px;
+	margin: 20px;
+	clear: both;
+	color: white;
+	
+}
+ 
+ /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+ 
+ 
+main{
+    border: 1px
+    solid #fff;
+}
+ 
+.container-all{
+    margin: auto;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10%;
+    overflow: hidden;
+}
+ 
+.slide{
+    display: flex;
+    transform: translate(0,0,0);
+    transition: all 800s;
+    animation-name: autoplay;/*este es el nombre de la animacion*/
+    animation-duration: 6.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards; /*iniciara al principio*/
+    animation-iteration-count: infinite;
+}
+ 
+.item-slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+ 
+.pagination{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+ 
+.pagination-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #fff;
+    margin: 0 10px;
+    text-align: center;
+    transition: all 400ms;
+}
+ 
+.pagination-item:hover{
+    transform: scale(2);
+}
+ 
+.pagination-item img{
+    display: inline-block;
+    max-width: none;
+    height: 100%;
+    transform: scale(1);
+    opacity: 0;
+    transition: all 400ms;
+}
+ 
+.pagination-item:hover img{
+    opacity: 1;
+    transform: scale(1);
+}
+ 
+
+input[id="1"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(0,0,0);
+}
+ 
+input[id="1"]:checked ~ .pagination .pagination-item[for="1"]{
+    background: #fff;
+}
+ 
+input[id="2"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 1),0,0);
+}
+ 
+input[id="2"]:checked ~ .pagination .pagination-item[for="2"]{
+    background: #fff;
+}
+ 
+input[id="3"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 2),0,0);
+}
+ 
+input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
+    background: #fff;
+}
+ 
+input[id="4"]:checked ~ .slide{
+    animation: none;
+    transform: matrix3d(calc(-100% * 2),0,0);
+}
+ 
+input[id="4"]:checked ~ .pagination .pagination-item[for="4"]{
+    background: #fff;
+}
+
+/*-------------------------------------division del tiempo de ejecucion-------------------------------------------------*/
+
+@keyframes autoplay{
+
+    25%{transform: translate3d(calc(-100% * 0),0,0);}
+    
+    50%{transform: translate3d(calc(-100% * 1),0,0);}
+
+    75%{transform: translate3d(calc(-100% * 2),0,0);}
+
+    100%{transform: translate3d(calc(-100% * 3),0,0);}
+    
+}
+

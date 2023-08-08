@@ -1,0 +1,25 @@
+#include <iostream>
+using name espace std;
+int main()
+
+{
+
+	char a="";
+	char b="";
+	char c="";
+	char d="";
+	
+		cout<<"ingresa tu nombre" \n;
+		cin>>"a";
+		cout<<"ingresa tu apellido" \n;
+		cin>>"b";
+		cout<<"ingresa tu calle" \n;
+		cin>>"c";
+		cout<<"ingresa tu colonia" \n;
+		cin>>"d";
+			
+			cout<<"gracias"<<"a";
+			
+	return 0;
+
+}

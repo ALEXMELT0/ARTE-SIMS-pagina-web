@@ -1,0 +1,9 @@
+			<script>
+			
+				var Nombre=prompt("hola, ¿cual es tu nombre? ¿que para que? una tarea :D");
+				alert("Hola! ¿ya tomaste agua hoy? "+Nombre);
+				alert(date);
+				
+				
+					
+			</script>

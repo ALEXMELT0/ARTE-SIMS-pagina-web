@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    margin: auto;
+    background-image:url(img/foto13.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.container h1{
+    color: rgb(255, 255, 255);
+}
+
+
+hr{
+    margin: center;
+}
+
+footer
+{
+	
+	border-style:solid;
+	border-color: rgb(255, 255, 255);
+	border-radius: 20px;
+	text-align:center;
+	padding:15px;
+	margin: 20px;
+	clear: both;
+	color: white;
+	
+}
+
+footer h3{
+    text-align: center;
+}
+
+footer button:hover{
+	
+	background-color: gray;
+    text-decoration-color: #ffff;
+}
